@@ -1,7 +1,9 @@
-import model
-import numpy as np
 import random
+
 import matplotlib.pyplot as plt
+import numpy as np
+
+import model
 
 xbounds = [0, 100]  # extreme values for reorder point
 ybounds = [5, 100]  # extreme values for order size

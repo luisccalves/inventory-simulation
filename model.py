@@ -1,7 +1,8 @@
+import itertools
+
+import matplotlib.pyplot as plt
 import numpy as np
 import simpy
-import itertools
-import matplotlib.pyplot as plt
 
 # simulation constants
 MEAN_IAT = .1                       # average time between customer demands (months)
